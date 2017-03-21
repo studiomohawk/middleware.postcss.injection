@@ -1,0 +1,24 @@
+{
+  "name": "middleware.postcss.injection",
+  "version": "1.0.0",
+  "description": "Middleware + Post CSS example",
+  "main": "app.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "browserSync",
+    "postcss"
+  ],
+  "author": "Yuya Saito <cssradar@gmail.com> (https://github.com/studiomohawk)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "postcss": "^5.2.16"
+  }
+}
